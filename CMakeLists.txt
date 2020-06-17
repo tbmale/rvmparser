@@ -13,11 +13,11 @@ include_directories(
   "${CMAKE_SOURCE_DIR}/libs/libtess2/Include" 
   "${CMAKE_SOURCE_DIR}/libs/libtess2/Source" 
   "${CMAKE_SOURCE_DIR}/libs/rapidjson/include" 
-  "${CMAKE_SOURCE_DIR}/libs/cork" 
+  "${CMAKE_SOURCE_DIR}/libs/cork/include" 
 )
 link_directories(
   ${CMAKE_LIBRARY_OUTPUT_DIRECTORY}
-  "${CMAKE_SOURCE_DIR}/libs/cork" 
+  "${CMAKE_SOURCE_DIR}/libs/cork/lib" 
 )
 
 file(GLOB SOURCES

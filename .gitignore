@@ -38,3 +38,4 @@ msvc15/x64
 msvc15/*.txt
 
 msvc15/rvmparser
+build

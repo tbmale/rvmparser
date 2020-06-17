@@ -4,6 +4,7 @@
 [submodule "libs/rapidjson"]
 	path = libs/rapidjson
 	url = https://github.com/Tencent/rapidjson.git
-[submodule "cork"]
-	path = cork
+[submodule "libs/cork"]
+	path = libs/cork
 	url = https://github.com/tbmale/cork.git
+	branch = master
